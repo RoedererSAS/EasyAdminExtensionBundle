@@ -11,13 +11,19 @@
             "email": "pc.bertineau@alterphp.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/RoedererSAS/EasyAdminBundle"
+        }
+    ],
     "require": {
         "php": "^7.1.3",
         "doctrine/collections": "^1.5",
         "doctrine/common": "^2.8",
         "doctrine/doctrine-bundle": "^1.8",
         "doctrine/orm": "^2.6",
-        "easycorp/easyadmin-bundle": "^2.0,<2.2.0",
+        "easycorp/easyadmin-bundle": "dev-fix",
         "league/uri-manipulations": "^1.3",
         "league/uri-schemes": "^1.2",
         "symfony/config": "^4.1",
